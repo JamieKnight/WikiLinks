@@ -5,6 +5,6 @@ _url=".bbc.co.uk"
 echo "Processing input files......"
 mkdir out/$_now
 function process() { 
-	ls data/*.part | parallel --gnu "grep "bbc.co.uk" {} | grep -o '[^(|=[&;*/ ]*bbc\.co\.uk[^| ]*' > out/$_now/{/}.txt"
+	ls data/* | parallel --gnu "grep "bbc.co.uk" {} | grep -o '[^(|=[&;*/ ]*bbc\.co\.uk[^| ]*' > out/$_now/{/}.txt"
 }
 (time process)
