@@ -14,7 +14,7 @@ For example, passing a domain of "bbc.co.uk" would return all links to pages on 
 The script is _very_ fast, it can process the 45gb wikipedia data dump in less than 10 minutes on a 2012 15" Retina MacBook Pro (i5, 2.8ghz), and in 18 seconds on a 24 Core VPS.
 
 ## Example Usage.
-After placing your input files into /data , edit the $_url key in ''''wikilink.sh''''.
+After placing your input files into /data , edit the $_url key in wikilink.sh.
 
 The run the script from the root of the checkout using: 
 
