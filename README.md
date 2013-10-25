@@ -23,7 +23,7 @@ The run the script from the root of the checkout using:
 By default, the script will process all the files in parallel and produce a date output directory in /results.
 
 ## Performance
-Wikilinks is very fast, for an indepth explanation as to why, take a look at the blog post here.
+Wikilinks is very fast, for an indepth explanation as to why, take a look at the [annoucement blog post. ](http://jkg3.com/Journal/making-grep-an-order-of-magnitude-or-more-faster)
 
 To get the best performance for datasets larger than 1gb, it is best to split the files. This will allow the files to be processed in parallel.
 
