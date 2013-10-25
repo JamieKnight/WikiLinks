@@ -1,0 +1,1 @@
+Directory for results, with each result set within a subdirector named for the date the script was run.
