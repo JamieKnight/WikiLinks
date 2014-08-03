@@ -4,24 +4,40 @@ var http = require('http');
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database(':memory:');
 
+//setup with some mock data
+/*
 db.serialize(function() {
   db.run("CREATE TABLE queue(id INTEGER PRIMARY KEY AUTOINCREMENT, domain TEXT, status TEXT, guid TEXT);");
-
-  var stmt = db.prepare("INSERT INTO queue (domain, status) VALUES (?, ?)");
-  
-  stmt.run("bbc.co.uk", "pending");
-  stmt.finalize();
-
-  db.each("SELECT * FROM queue WHERE status = 'pending';", function(err, row) {
-      console.log(row);
-  });
+   var stmt = db.prepare("INSERT INTO queue (domain, status) VALUES (?, ?)");
+	 stmt.run("bbc.co.uk", "pending");
+	 stmt.run("bbc.com", "pending");
+	 stmt.run("pizza.com", "pending");
+	 stmt.finalize();
 });
+
+processQueue();
+
+function processQueue(){
+
+db.serialize(function() {
+	db.each("SELECT * FROM queue WHERE status = 'pending';", function(err, row) {
+	  //take the current pending item
+	  //mark the item as processing
+	  console.log('processing ' + row.domain);
+	}, function(){
+	  console.log('done');
+	});
+});
+}
+*/
+
+
 
 http.createServer(function (req, res) {
 
   var spawn   = require('child_process').spawn;
 
-  var command = spawn('ls', ['-l']);
+  var command = spawn('../wikilinks.sh');
   var output  = [];
 
   command.stdout.on('data', function(chunk) {
