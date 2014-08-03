@@ -37,7 +37,7 @@ http.createServer(function (req, res) {
 
   var spawn   = require('child_process').spawn;
 
-  var command = spawn('../wikilinks.sh');
+  var command = spawn('ls');
   var output  = [];
 
   command.stdout.on('data', function(chunk) {
