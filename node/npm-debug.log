@@ -1,0 +1,218 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'swig', '-g' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.30
+4 verbose cache add [ 'swig', null ]
+5 verbose cache add name=undefined spec="swig" args=["swig",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'swig',
+6 verbose parsed url   path: 'swig',
+6 verbose parsed url   href: 'swig' }
+7 silly lockFile 2375338c-swig swig
+8 verbose lock swig /Users/hackday/.npm/2375338c-swig.lock
+9 silly lockFile 2375338c-swig swig
+10 silly lockFile 2375338c-swig swig
+11 verbose addNamed [ 'swig', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6cd4b70b-swig swig@
+14 verbose lock swig@ /Users/hackday/.npm/6cd4b70b-swig.lock
+15 silly addNameRange { name: 'swig', range: '*', hasData: false }
+16 verbose request where is /swig
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id b6a541f6e70afa0b
+19 verbose url raw /swig
+20 verbose url resolving [ 'https://registry.npmjs.org/', './swig' ]
+21 verbose url resolved https://registry.npmjs.org/swig
+22 verbose request where is https://registry.npmjs.org/swig
+23 info trying registry request attempt 1 at 11:31:14
+24 http GET https://registry.npmjs.org/swig
+25 http 200 https://registry.npmjs.org/swig
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sun, 03 Aug 2014 10:30:33 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+26 silly registry.get     etag: '"A3G7IRLALKVKFAN32L2YPAD5G"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '74117',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '873',
+26 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1407061832.858081,VS0,VE714',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'swig', range: '*', hasData: true }
+28 silly addNameRange versions [ 'swig',
+28 silly addNameRange   [ '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.1.5',
+28 silly addNameRange     '0.1.6',
+28 silly addNameRange     '0.1.7',
+28 silly addNameRange     '0.1.8',
+28 silly addNameRange     '0.1.9',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.9.3',
+28 silly addNameRange     '0.9.4',
+28 silly addNameRange     '0.10.0',
+28 silly addNameRange     '0.11.0',
+28 silly addNameRange     '0.11.1',
+28 silly addNameRange     '0.11.2',
+28 silly addNameRange     '0.12.0',
+28 silly addNameRange     '0.12.1',
+28 silly addNameRange     '0.13.0',
+28 silly addNameRange     '0.13.1',
+28 silly addNameRange     '0.13.2',
+28 silly addNameRange     '0.13.3',
+28 silly addNameRange     '0.13.4',
+28 silly addNameRange     '0.13.5',
+28 silly addNameRange     '0.14.0',
+28 silly addNameRange     '1.0.0-pre1',
+28 silly addNameRange     '1.0.0-pre2',
+28 silly addNameRange     '1.0.0-pre3',
+28 silly addNameRange     '1.0.0-rc1',
+28 silly addNameRange     '1.0.0-rc2',
+28 silly addNameRange     '1.0.0-rc3',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1' ] ]
+29 verbose addNamed [ 'swig', '1.4.1' ]
+30 verbose addNamed [ '1.4.1', '1.4.1' ]
+31 silly lockFile ca23330f-swig-1-4-1 swig@1.4.1
+32 verbose lock swig@1.4.1 /Users/hackday/.npm/ca23330f-swig-1-4-1.lock
+33 silly lockFile 741d2c0d-ry-npmjs-org-swig-swig-1-4-1-tgz https://registry.npmjs.org/swig/-/swig-1.4.1.tgz
+34 verbose lock https://registry.npmjs.org/swig/-/swig-1.4.1.tgz /Users/hackday/.npm/741d2c0d-ry-npmjs-org-swig-swig-1-4-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/swig/-/swig-1.4.1.tgz',
+35 verbose addRemoteTarball   '2fde687865cd37b51abf986d24b8cf7021268e81' ]
+36 info retry fetch attempt 1 at 11:31:15
+37 verbose fetch to= /var/folders/ft/331304vj4l7c0kr8qgh2x1q00000gp/T/npm-58969-0M_iS6Xe/registry.npmjs.org/swig/-/swig-1.4.1.tgz
+38 http GET https://registry.npmjs.org/swig/-/swig-1.4.1.tgz
+39 http 200 https://registry.npmjs.org/swig/-/swig-1.4.1.tgz
+40 silly lockFile 741d2c0d-ry-npmjs-org-swig-swig-1-4-1-tgz https://registry.npmjs.org/swig/-/swig-1.4.1.tgz
+41 silly lockFile 741d2c0d-ry-npmjs-org-swig-swig-1-4-1-tgz https://registry.npmjs.org/swig/-/swig-1.4.1.tgz
+42 silly lockFile ca23330f-swig-1-4-1 swig@1.4.1
+43 silly lockFile ca23330f-swig-1-4-1 swig@1.4.1
+44 silly lockFile 6cd4b70b-swig swig@
+45 silly lockFile 6cd4b70b-swig swig@
+46 silly resolved [ { name: 'swig',
+46 silly resolved     version: '1.4.1',
+46 silly resolved     description: 'A simple, powerful, and extendable templating engine for node.js and browsers, similar to Django, Jinja2, and Twig.',
+46 silly resolved     keywords:
+46 silly resolved      [ 'template',
+46 silly resolved        'templating',
+46 silly resolved        'html',
+46 silly resolved        'django',
+46 silly resolved        'jinja',
+46 silly resolved        'twig',
+46 silly resolved        'express',
+46 silly resolved        'block' ],
+46 silly resolved     repository: { type: 'git', url: 'http://github.com/paularmstrong/swig.git' },
+46 silly resolved     author:
+46 silly resolved      { name: 'Paul Armstrong',
+46 silly resolved        email: 'paul@paularmstrongdesigns.com' },
+46 silly resolved     dependencies: { 'uglify-js': '~2.4', optimist: '~0.6' },
+46 silly resolved     devDependencies:
+46 silly resolved      { lodash: '~1.3.1',
+46 silly resolved        express: '~3',
+46 silly resolved        nodelint: '~0.6',
+46 silly resolved        mocha: '1.12.0',
+46 silly resolved        'expect.js': '~0.2',
+46 silly resolved        still: '0.0.7',
+46 silly resolved        less: '~1.4',
+46 silly resolved        'mocha-phantomjs': '~3.1',
+46 silly resolved        blanket: '~1.1',
+46 silly resolved        'travis-cov': '~0.2',
+46 silly resolved        phantomjs: '~1.9.1',
+46 silly resolved        browserify: '~2',
+46 silly resolved        file: '~0.2',
+46 silly resolved        jsdoc: '~3.2' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     main: 'index',
+46 silly resolved     engines: { node: '>=0.10.0' },
+46 silly resolved     bin: { swig: './bin/swig.js' },
+46 silly resolved     scripts:
+46 silly resolved      { prepublish: 'npm prune && make build',
+46 silly resolved        test: 'make lint && make test reporter=spec && make test-browser && make coverage cov-reporter=travis-cov' },
+46 silly resolved     bugs: { url: 'https://github.com/paularmstrong/swig/issues' },
+46 silly resolved     homepage: 'https://github.com/paularmstrong/swig',
+46 silly resolved     _id: 'swig@1.4.1',
+46 silly resolved     dist:
+46 silly resolved      { shasum: '2fde687865cd37b51abf986d24b8cf7021268e81',
+46 silly resolved        tarball: 'http://registry.npmjs.org/swig/-/swig-1.4.1.tgz' },
+46 silly resolved     _from: 'swig@',
+46 silly resolved     _npmVersion: '1.4.3',
+46 silly resolved     _npmUser:
+46 silly resolved      { name: 'paularmstrong',
+46 silly resolved        email: 'paul@paularmstrongdesigns.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: '2fde687865cd37b51abf986d24b8cf7021268e81',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/swig/-/swig-1.4.1.tgz' } ]
+47 info install swig@1.4.1 into /usr/local/lib
+48 info installOne swig@1.4.1
+49 verbose lib/node_modules/swig unbuild
+50 verbose tar unpack /Users/hackday/.npm/swig/1.4.1/package.tgz
+51 silly lockFile 801d7b49--usr-local-lib-node-modules-swig tar:///usr/local/lib/node_modules/swig
+52 verbose lock tar:///usr/local/lib/node_modules/swig /Users/hackday/.npm/801d7b49--usr-local-lib-node-modules-swig.lock
+53 silly lockFile 0711a027-ckday-npm-swig-1-4-1-package-tgz tar:///Users/hackday/.npm/swig/1.4.1/package.tgz
+54 verbose lock tar:///Users/hackday/.npm/swig/1.4.1/package.tgz /Users/hackday/.npm/0711a027-ckday-npm-swig-1-4-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/swig'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/swig']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/swig',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/swig',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 12.5.0
+59 error command "node" "/usr/local/bin/npm" "install" "swig" "-g"
+60 error cwd /Users/hackday/Documents/LeedsHack/WikiLinks/node
+61 error node -v v0.10.30
+62 error npm -v 1.4.23
+63 error path /usr/local/lib/node_modules/swig
+64 error fstream_path /usr/local/lib/node_modules/swig
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/swig'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
